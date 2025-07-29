@@ -5,6 +5,10 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+
+  -- language specific
   { import = "astrocommunity.pack.lua" },
+
+  -- colorscheme
   { import = "astrocommunity.colorscheme.catppuccin" },
 }
